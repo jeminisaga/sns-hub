@@ -12,13 +12,19 @@ h1{font-size:1.6em}h2{font-size:1.15em;margin-top:2em}a{color:#0a58ca}
 <body>
 <h1>プライバシーポリシー</h1>
 <p>制定日: 2026年11月12日</p>
-<p>sns-hub（以下「本ツール」）は、運営者（なかあき）本人が自分のアカウントへ動画を投稿するためだけに使う個人用ツールです。本ポリシーは、本ツールが Google（YouTube）などのアカウント情報をどう扱うかを説明します。</p>
+<p>sns-hub（以下「本ツール」）は、運営者（なかあき）本人が自分のアカウントへ動画を投稿するためだけに使う個人用ツールです。本ポリシーは、本ツールが Google（YouTube）、Instagram、TikTok のアカウント情報をどう扱うかを説明します。</p>
 
 <h2>1. 利用する情報</h2>
-<p>本ツールは、Google の OAuth 認証で許可された範囲（YouTube Data API の <code>youtube.upload</code>：動画のアップロード）だけを利用します。チャンネルの視聴データ、連絡先、メール、その他の個人情報は取得しません。</p>
+<p>本ツールは、各サービスで運営者本人が許可した範囲だけを利用します。</p>
+<ul>
+<li>YouTube: <code>youtube.upload</code>（動画のアップロード）と <code>youtube.readonly</code>（投稿先チャンネルの名前とIDの確認）</li>
+<li>Instagram: <code>instagram_business_basic</code>（アカウント名とIDの確認）と <code>instagram_business_content_publish</code>（投稿）</li>
+<li>TikTok: <code>user.info.basic</code>（表示名とIDの確認）と <code>video.upload</code>（下書きへの動画送信）</li>
+</ul>
+<p>視聴データ、フォロワーの情報、メッセージ、連絡先、その他の個人情報は取得しません。</p>
 
 <h2>2. 情報の使い道</h2>
-<p>許可された権限は、運営者が指示した動画を、運営者自身のチャンネルへアップロードするためだけに使います。広告、分析、販売などには使いません。</p>
+<p>許可された権限は、運営者が指示した動画を、運営者自身のアカウントへ投稿するためだけに使います。広告、分析、販売などには使いません。</p>
 
 <h2>3. 保存場所</h2>
 <p>認証で得たトークンは、運営者のパソコン内（Windows の資格情報マネージャー）にだけ保存します。外部のサーバーには保存しません。</p>
@@ -30,7 +36,7 @@ h1{font-size:1.6em}h2{font-size:1.15em;margin-top:2em}a{color:#0a58ca}
 <p>本ツールによる Google API から受け取った情報の利用および他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>（限定的使用の要件を含む）に従います。</p>
 
 <h2>6. 許可の取り消し</h2>
-<p>Google アカウントの <a href="https://myaccount.google.com/permissions">サードパーティのアクセス</a> 画面から、いつでも本ツールへの許可を取り消せます。取り消すと、保存済みのトークンは使えなくなります。</p>
+<p>Google アカウントの <a href="https://myaccount.google.com/permissions">サードパーティのアクセス</a> 画面、Instagram と TikTok の各アプリの「連携しているアプリ」設定から、いつでも本ツールへの許可を取り消せます。取り消すと、保存済みのトークンは使えなくなります。</p>
 
 <h2>7. 改定</h2>
 <p>本ポリシーを変更する場合は、このページを更新します。</p>
